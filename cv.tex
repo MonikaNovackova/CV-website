@@ -1,0 +1,194 @@
+\documentclass[a4paper,10pt]{article}
+
+%A Few Useful Packages
+\usepackage{marvosym}
+\usepackage{fontspec} 					%for loading fonts
+\usepackage{xunicode,xltxtra,url,parskip} 	%other packages for formatting
+\RequirePackage{color,graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[big]{layaureo} 				%better formatting of the A4 page
+% an alternative to Layaureo can be ** \usepackage{fullpage} **
+\usepackage{supertabular} 				%for Grades
+\usepackage{titlesec}					%custom \section
+
+%Setup hyperref package, and colours for links
+\usepackage{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+%FONTS
+\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin}
+%%% modified for Karol Kozioł for ShareLaTeX use
+\setmainfont[
+SmallCapsFont = Fontin-SmallCaps.otf,
+BoldFont = Fontin-Bold.otf,
+ItalicFont = Fontin-Italic.otf
+]
+{Fontin.otf}
+%%%
+
+%CV Sections inspired by: 
+%http://stefano.italians.nl/archives/26
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{3pt}
+%Tweak a bit the top margin
+%\addtolength{\voffset}{-1.3cm}
+
+%Italian hyphenation for the word: ''corporations''
+\hyphenation{im-pre-se}
+
+%-------------WATERMARK TEST [**not part of a CV**]---------------
+\usepackage[absolute]{textpos}
+
+\setlength{\TPHorizModule}{30mm}
+\setlength{\TPVertModule}{\TPHorizModule}
+\textblockorigin{2mm}{0.65\paperheight}
+\setlength{\parindent}{0pt}
+
+%--------------------BEGIN DOCUMENT----------------------
+\begin{document}
+
+%WATERMARK TEST [**not part of a CV**]---------------
+%\font\wm=''Baskerville:color=787878'' at 8pt
+%\font\wmweb=''Baskerville:color=FF1493'' at 8pt
+%{\wm 
+%	\begin{textblock}{1}(0,0)
+%		\rotatebox{-90}{\parbox{500mm}{
+%			Typeset by Alessandro Plasmati with \XeTeX\  \today\ for 
+%			{\wmweb \href{http://www.aleplasmati.comuv.com}{aleplasmati.comuv.com}}
+%		}
+%	}
+%	\end{textblock}
+%}
+
+\pagestyle{empty} % non-numbered pages
+
+\font\fb=''[cmr10]'' %for use with \LaTeX command
+
+%--------------------TITLE-------------
+\par{\centering
+		{\Huge Monika \textsc{Novackova}
+	}\bigskip\par}
+
+%--------------------SECTIONS-----------------------------------
+%Section: Personal Data
+
+\begin{tabular}{rl}
+ 
+    \textsc{Address:}   & School of Global Studies, University of Sussex \\
+ & Falmer, Brighton\\
+  &BN1 9QJ, United Kingdom\\
+    \textsc{Phone:}     & 0774 180 4494\\
+    \textsc{email:}     & \href{mailto:monika.novac@gmail.com}{monika.novac@gmail.com}\\
+    
+       \textsc{Citizienship:} & Czech Republic, European Union. Indefinite Leave to Remain in the UK granted
+\end{tabular}
+
+Data scientist, climate economist and recent PhD graduate is searching for a job as data analyst or consultant in private sector. Demonstrable skills in advanced statistical analysis and econometric modelling using R, Python, STATA and Excel. Experienced in communicating concepts to co-workers from various backgrounds.
+
+
+
+%Section: Work Experience at the top
+\section{Relevant Work Experience}
+\begin{tabular}{r|p{11cm}}
+ \emph{Current} & Data analyst in Sustainability, \textsc{University of Sussex}, Brighton \\since \textsc{2017}&\emph{Application of statistical and economic models to analyse effects of droughts on food security in Kenya}\\
+& \underline{Supervisors:} Prof. Martin \textsc{Todd}, Dr. Pedram \textsc{Rowhani}\\
+ &\footnotesize{Collected data in a systematic and safe way. Analysed complex data and presented emerging conclusions and concepts. Developed statistical and econometric models using R and Excel.  Meeting regular deadlines. Interacting with colleagues from diverse professional backgrounds to successfully work towards common goals.}
+ 
+ 
+ \\\multicolumn{2}{c}{} \\
+ \textsc{2015-2016} & Teaching at \textsc{the University of Sussex}, Brighton \\&\emph{Climate Change Economics and Statistical Analysis in STATA}\\&\footnotesize{Communicated complex ideas effectively to a range of audiences. Sensitive to the needs of others.}\\\multicolumn{2}{c}{} \\
+ 
+ \textsc{2012-2013} & Data scientist at \textsc{Centrum Wiskunde \& Informatica (CWI)}, Amsterdam\\ &\emph{Statistical analysis and forecasting using R and SQL}\\&\footnotesize{Experience in quantitative analysis. Ability to present and organise large amounts of information in a clear manner. Negotiating skills.}\\\multicolumn{2}{c}{} \\
+
+\textsc{2011} & Data analyst at \textsc{Pilsner Urquell, a.s.}, Prague\\ &\emph{Market analysis at the large beer manufacturer}\\&\footnotesize{Succeeded in a highly competitive application procedure. Using analytic and statistical skills accompanied with economic background for better description of beer market dynamics. Improved beer demand models. Presentation of concepts to the company's executive management.}
+\end{tabular}
+
+%Section: Education
+\section{Education}
+\begin{tabular}{rl}	
+ 2014-2018 & \textbf{Ph.D. in \textsc{Economics}}, \textbf{University of Sussex}, UK\\
+& \underline{Thesis:} ``Effects of Sea Level Rise in the United States and climate change perception\\
+
+& in the United Kingdom`` \hfill | \href{http://sro.sussex.ac.uk/76891/}{Full version}\\
+& \hspace{0.5cm} $\bullet$ Managing of complex datasets in a range of different formats using Excel and R \\
+& \hspace{0.5cm} $\bullet$ Analysis of both macro data and survey data\\
+& \hspace{0.5cm} $\bullet$ Application of advanced statistical and econometric methods\\
+& \hspace{0.5cm} $\bullet$ Regression models including instrumental
+variables and Heckman correction\\
+& \hspace{0.5cm} $\bullet$ The Multisplit lasso and other machine learning methods\\
+& \hspace{0.5cm} $\bullet$ The whole data analysis conducted in R\\
+
+
+& \underline{Advisors:} Prof. Richard \textsc{Tol}, Dr. Alexander \textsc{Moradi}\\&\\
+
+
+\end{tabular}
+
+
+
+%Section: Education
+\section{Education}
+\begin{tabular}{rl}	
+
+2013-2014& Ing. in \textsc{Econometrics and Operations Research} \\&Faculty of informatics and statistics, \textbf{University of Economics in Prague}\\
+& \underline{Thesis:} ``Application of Time Series Analysis in Predictive Modelling \\ 
+& \underline{Advisor:} Prof. Roman \textsc{Husek}\\&\\
+
+2011-2013& MSc in \textsc{Econometrics and Operations Research} \\&\textbf{Vrije University in Amsterdam}\\
+& \underline{Thesis:} ``Forecasting of Daily Number of Calls for Firefighters\\ 
+& \underline{Advisors:} Prof. Siem Jan \textsc{Koopman}, Prof. Michael \textsc{Massmann}\\&\\
+
+
+2007-2010& Bc. in \textsc{Quantitative Methods in Economics}, \textbf{University of Economics in Prague}\\&\\
+
+\end{tabular}
+
+
+\section{Computer Skills}
+\begin{tabular}{rl}
+Advanced Knowledge:&  Excel including contingency tables, statistical analysis, simulations\\
+&  and optimization using the Solver Add-In, R,  {\fb \LaTeX}, Word\\
+
+
+Intermediate Knowledge:&  SQL, Python, Web-design (HTML, CSS, JavaScript): Level 1 course run\\
+& by \textit{Code First: Girls} completed in Autumn 2018\\
+ Basic Knowledge:&   STATA, ArcGIS, Mathematical Programming (Lingo, Mpl)
+\setmainfont[SmallCapsFont=Fontin-SmallCaps.otf]{Fontin.otf}\\
+
+\end{tabular}
+
+
+
+
+%Section: Languages
+\section{Languages}
+\begin{tabular}{rl}
+\textsc{English:}&Fluent, PhD completed in English, TOEFL score 101 in 2014\\
+\textsc{Czech:}&Native language\\
+\textsc{German:}&Basic\\
+\end{tabular}
+
+
+\section{Other Activities and Achievements}
+\begin{tabular}{rl}
+2018 & Publication with R. Tol:  \href{https://www.tandfonline.com/doi/full/10.1080/21606544.2017.1363667}{"Effects of sea level rise on economy of the United States"},\\
+  &Journal of Environmental Economics and Policy. DOI:10.1080/21606544.2017.1363667\normalsize\\
+ 2017 & Presenting at the International Conference of Economics and Development (ICED)\normalsize\\
+ &  Colombo, Sri Lanka, paper Effects of Sea level rise on land values in the United States\normalsize\\
+ 2013 & Participation in the Econometric Game 2013 organized by the University of Amsterdam
+\end{tabular}
+
+\section{Interests and Activities}
+Learning and improving programming skills. At the moment, my main interest is improving Python including data analysis and statistical programming. I have completed a  Web-development course run by \textit{Code First: Girls} in Autumn 2018.
+\vspace{0.15cm} \\
+Sports: Running, Cycling, Snowboarding
+\vspace{0.5cm}
+\center{\large{References available on request}}
+%\newpage
+%\hypertarget{gmat}{\textsc{Gmat}\setmainfont{LMRoman10 Regular}\textregistered\setmainfont[SmallCapsFont=Fontin-SmallCaps]{Fontin-Regular}}
+
+%\XeTeXpdffile ''GMAT.pdf'' page 1 scaled 800
+
+\end{document}
