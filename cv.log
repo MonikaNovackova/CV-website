@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2018.9.4)  24 DEC 2018 01:08
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2018.9.4)  30 DEC 2018 23:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -921,24 +921,24 @@ Overfull \hbox (18.11342pt too wide) in paragraph at lines 133--147
 . - 'small caps'  (m/sc) with NFSS spec.:
 . <->"[Fontin-SmallCaps.otf]/OT:mapping=tex-text;"
 .................................................
-LaTeX Info: Redefining \rmfamily on input line 159.
+LaTeX Info: Redefining \rmfamily on input line 158.
 
-Overfull \hbox (30.44342pt too wide) in paragraph at lines 150--162
+Overfull \hbox (30.44342pt too wide) in paragraph at lines 150--161
 [][] 
  []
 
 
-Overfull \hbox (21.73009pt too wide) in paragraph at lines 176--183
+Overfull \hbox (21.73009pt too wide) in paragraph at lines 175--182
 [][] 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 195.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 194.
 [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 195.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 194.
  (./cv.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 195.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 195.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 195.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 194.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 194.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 194.
  ) 
 Here is how much of TeX's memory you used:
  22369 strings out of 494579
