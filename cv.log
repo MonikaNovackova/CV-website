@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2018.9.4)  20 FEB 2019 02:28
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2018.9.4)  8 MAR 2019 02:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -878,23 +878,10 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 77.
 
-Overfull \hbox (26.9134pt too wide) in paragraph at lines 77--87
-[][] 
- []
-
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
 )
-Overfull \hbox (30.98009pt too wide) in paragraph at lines 110--126
-[][] 
- []
-
-
-Overfull \hbox (18.11342pt too wide) in paragraph at lines 131--145
-[][] 
- []
-
 [1
 
 ]
@@ -915,31 +902,36 @@ Overfull \hbox (18.11342pt too wide) in paragraph at lines 131--145
 . - 'small caps'  (m/sc) with NFSS spec.:
 . <->"[Fontin-SmallCaps.otf]/OT:mapping=tex-text;"
 .................................................
-LaTeX Info: Redefining \rmfamily on input line 156.
+LaTeX Info: Redefining \rmfamily on input line 117.
 
-Overfull \hbox (15.29012pt too wide) in paragraph at lines 148--159
+Overfull \hbox (15.29012pt too wide) in paragraph at lines 109--120
 [][] 
  []
 
 
-Overfull \hbox (21.73009pt too wide) in paragraph at lines 173--180
+Overfull \hbox (31.5501pt too wide) in paragraph at lines 126--149
 [][] 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 192.
+
+Overfull \hbox (21.73009pt too wide) in paragraph at lines 164--171
+[][] 
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 183.
 [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 192.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 183.
  (./cv.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 192.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 192.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 192.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 183.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 183.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 183.
  ) 
 Here is how much of TeX's memory you used:
- 22369 strings out of 494579
- 423934 string characters out of 6167474
- 450580 words of memory out of 5000000
- 26068 multiletter control sequences out of 15000+600000
- 4176 words of font info for 37 fonts, out of 8000000 for 9000
+ 22367 strings out of 494579
+ 423878 string characters out of 6167474
+ 447580 words of memory out of 5000000
+ 26067 multiletter control sequences out of 15000+600000
+ 4168 words of font info for 36 fonts, out of 8000000 for 9000
  287 hyphenation exceptions out of 8191
  35i,11n,66p,10415b,329s stack positions out of 5000i,500n,10000p,200000b,80000s
 
